@@ -1,4 +1,4 @@
-# <a name="microsoft-graph-training-module---build-react-single-page-apps-with-microsoft-graph"></a>microsoft graph 培训模块-使用 Microsoft graph 对单页面应用程序的生成进行响应
+# <a name="microsoft-graph-training-module---build-react-single-page-apps-with-microsoft-graph"></a>Microsoft Graph 培训模块-使用 Microsoft Graph 对单页面应用程序的生成进行响应
 
 本模块将介绍如何在创建响应单页面应用程序以访问 Office 365 中的数据时使用 Microsoft Graph。
 

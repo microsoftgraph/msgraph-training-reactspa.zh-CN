@@ -163,7 +163,7 @@ export async function getUserDetails(accessToken) {
 }
 ```
 
-这将`getUserDetails`实现使用 Microsoft Graph SDK 调用`/me`终结点并返回结果的函数。
+这将`getUserDetails`实现使用 MICROSOFT Graph SDK 调用`/me`终结点并返回结果的函数。
 
 更新中`getUserProfile` `./src/App.js`的方法以调用此函数。 首先, 将以下`import`语句添加到文件顶部。
 

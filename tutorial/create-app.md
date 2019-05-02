@@ -23,7 +23,7 @@ npm start
 - [fontawesome-](https://github.com/FortAwesome/Font-Awesome)图标的可用。
 - 日期和时间格式的[时刻](https://github.com/moment/moment)。
 - 用于对 Azure Active Directory 进行身份验证和检索访问令牌的[msal](https://github.com/AzureAD/microsoft-authentication-library-for-js) 。
-- microsoft graph-用于调用 microsoft graph 的[客户端](https://github.com/microsoftgraph/msgraph-sdk-javascript)。
+- microsoft graph-用于调用 Microsoft Graph 的[客户端](https://github.com/microsoftgraph/msgraph-sdk-javascript)。
 
 在 CLI 中运行以下命令。
 
