@@ -1,21 +1,21 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-打开命令行接口 (CLI), 导航到您有权在其中创建文件的目录, 并运行以下命令来安装 "[创建响应-应用](https://www.npmjs.com/package/create-react-app)" 工具并创建新的响应应用程序。
+打开命令行接口（CLI），导航到您有权在其中创建文件的目录，并运行以下命令来安装 "[创建响应-应用](https://www.npmjs.com/package/create-react-app)" 工具并创建新的响应应用程序。
 
 ```Shell
-npm install create-react-app@3.0.1 -g
+npm install create-react-app@3.1.1 -g
 create-react-app graph-tutorial
 ```
 
-命令完成后, 转到 CLI 中`graph-tutorial`的目录, 并运行以下命令以启动本地 web 服务器。
+命令完成后，转到 CLI 中`graph-tutorial`的目录，并运行以下命令以启动本地 web 服务器。
 
 ```Shell
 npm start
 ```
 
-默认浏览器将打开[https://localhost:3000/](https://localhost:3000)并使用默认的响应页面。 如果你的浏览器未打开, 请打开它[https://localhost:3000/](https://localhost:3000)并浏览以验证新应用是否正常工作。
+默认浏览器将打开[https://localhost:3000/](https://localhost:3000)并使用默认的响应页面。 如果你的浏览器未打开，请打开它[https://localhost:3000/](https://localhost:3000)并浏览以验证新应用是否正常工作。
 
-在继续操作之前, 请先安装将使用的其他一些程序包:
+在继续操作之前，请先安装将使用的其他一些程序包：
 
 - 响应-在响应应用程序中进行声明性路由的[路由器-dom](https://github.com/ReactTraining/react-router) 。
 - 用于样式和常用组件的[引导](https://github.com/twbs/bootstrap)。
@@ -28,13 +28,13 @@ npm start
 在 CLI 中运行以下命令。
 
 ```Shell
-npm install react-router-dom@5.0.0 bootstrap@4.3.1 reactstrap@8.0.0 @fortawesome/fontawesome-free@5.8.2
-npm install moment@2.24.0 msal@1.0.0 @microsoft/microsoft-graph-client@1.6.0
+npm install react-router-dom@5.0.1 bootstrap@4.3.1 reactstrap@8.0.1 @fortawesome/fontawesome-free@5.10.2
+npm install moment@2.24.0 msal@1.1.3 @microsoft/microsoft-graph-client@1.7.0
 ```
 
 ## <a name="design-the-app"></a>设计应用程序
 
-首先, 创建应用的导航栏。 在名为`./src` `Navbar.js`的目录中创建一个新文件, 并添加以下代码。
+首先，创建应用的导航栏。 在名为`./src` `Navbar.js`的目录中创建一个新文件，并添加以下代码。
 
 ```JSX
 import React from 'react';
@@ -157,7 +157,7 @@ export default class NavBar extends React.Component {
 }
 ```
 
-接下来, 为该应用程序创建一个主页。 在名为`./src` `Welcome.js`的目录中创建一个新文件, 并添加以下代码。
+接下来，为该应用程序创建一个主页。 在名为`./src` `Welcome.js`的目录中创建一个新文件，并添加以下代码。
 
 ```JSX
 import React from 'react';
@@ -198,7 +198,7 @@ export default class Welcome extends React.Component {
 }
 ```
 
-现在, 创建错误消息显示, 以向用户显示消息。 在名为`./src` `ErrorMessage.js`的目录中创建一个新文件, 并添加以下代码。
+现在，创建错误消息显示，以向用户显示消息。 在名为`./src` `ErrorMessage.js`的目录中创建一个新文件，并添加以下代码。
 
 ```JSX
 import React from 'react';
@@ -220,7 +220,7 @@ export default class ErrorMessage extends React.Component {
 }
 ```
 
-现在, 定义了这些基本组件, 更新应用程序以使用它们。 首先, 打开`./src/index.css`文件, 并将其全部内容替换为以下内容。
+现在，定义了这些基本组件，更新应用程序以使用它们。 首先，打开`./src/index.css`文件，并将其全部内容替换为以下内容。
 
 ```css
 body {
@@ -234,7 +234,7 @@ body {
 }
 ```
 
-接下来, `./src/App.js`打开并将其全部内容替换为以下内容。
+接下来， `./src/App.js`打开并将其全部内容替换为以下内容。
 
 ```JSX
 import React, { Component } from 'react';
@@ -294,6 +294,6 @@ class App extends Component {
 export default App;
 ```
 
-保存所有更改并刷新页面。 现在, 应用程序看起来应非常不同。
+保存所有更改并刷新页面。 现在，应用程序看起来应非常不同。
 
 ![重新设计的主页的屏幕截图](images/create-app-01.png)
