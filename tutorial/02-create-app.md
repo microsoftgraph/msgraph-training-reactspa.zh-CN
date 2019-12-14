@@ -28,13 +28,13 @@ npm start
 在 CLI 中运行以下命令。
 
 ```Shell
-npm install react-router-dom@5.0.1 bootstrap@4.3.1 reactstrap@8.0.1 @fortawesome/fontawesome-free@5.10.2
-npm install moment@2.24.0 msal@1.1.3 @microsoft/microsoft-graph-client@1.7.0
+npm install react-router-dom@5.1.2 bootstrap@4.4.1 reactstrap@8.1.1 @fortawesome/fontawesome-free@5.11.2
+npm install moment@2.24.0 msal@1.1.3 @microsoft/microsoft-graph-client@2.0.0
 ```
 
 ## <a name="design-the-app"></a>设计应用程序
 
-首先，创建应用的导航栏。 在名为`./src` `Navbar.js`的目录中创建一个新文件，并添加以下代码。
+首先，创建应用的导航栏。 在名为`./src` `NavBar.js`的目录中创建一个新文件，并添加以下代码。
 
 ```JSX
 import React from 'react';
