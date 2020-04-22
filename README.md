@@ -8,19 +8,11 @@
 
 - [响应 Microsoft Graph 教程](https://docs.microsoft.com/graph/training/react-tutorial)
 
-## <a name="demos"></a>演示
-
-此存储库中的[演示](./demos)目录包含与完成教程的各个部分对应的项目的副本。 如果只想演示教程的某个特定部分，则可以从上一节中的版本开始。
-
-- [01-创建-应用](demos/01-create-app)：已完成[创建响应单页面应用程序](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=1)
-- [02-添加-aad-auth](demos/02-add-aad-auth)：已完成[添加 Azure AD 身份验证](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=3)
-- [03-外接 msgraph](demos/03-add-msgraph)：已完成[获取日历数据](https://docs.microsoft.com/graph/training/react-tutorial?tutorial-step=4)
-
 ## <a name="completed-sample"></a>已完成示例
 
 如果只想使用此实验室生成已完成的示例，可以在此处找到它。
 
-- [已完成项目](demos/03-add-msgraph)
+- [已完成项目](demo)
 
 ## <a name="watch-the-module"></a>观看模块
 
@@ -39,8 +31,9 @@
 
 | 版本 |       日期       |              注释              |
 | ------- | ---------------- | ---------------------------------- |
+| 1.8     | 2020年3月19日   | 刷新教程                   |
 | 1.7     | 2019 年 12 月 3 日 | 更新到最新 Graph SDK 和`create-react-app` |
-| 1.6     | 2019年6月18日    | 添加了指向截屏视频录制的链接 |
+| 1.6     | 2019 年 6 月 18 日    | 添加了指向截屏视频录制的链接 |
 | 1.5     | 2019 年 5 月 24 日     | 2019Q4 内容刷新             |
 | 1.4     | 2019 年 5 月 22 日     | 快速启动更新                 |
 | 1.3     | 2019 年 5 月 16 日     | 更新了 AAD 应用注册步骤 |
