@@ -9,20 +9,16 @@
     ![应用注册的屏幕截图 ](./images/aad-portal-app-registrations.png)
 
     > [!NOTE]
-    > Azure AD B2C 用户仅可查看**应用注册（旧版）**。 在这种情况下，请直接[https://aka.ms/appregistrations](https://aka.ms/appregistrations)转到。
+    > Azure AD B2C 用户只能查看 ** (旧版) 的应用注册 **。 在这种情况下，请直接转到 [https://aka.ms/appregistrations](https://aka.ms/appregistrations) 。
 
 1. 选择“新注册”****。 在“注册应用”**** 页上，按如下方式设置值。
 
     - 将“名称”**** 设置为“`React Graph Tutorial`”。
     - 将“受支持的帐户类型”**** 设置为“任何组织目录中的帐户和个人 Microsoft 帐户”****。
-    - 在“重定向 URI”**** 下，将第一个下拉列表设置为“`Web`”，并将值设置为“`http://localhost:3000`”。
+    - 在“重定向 URI”**** 下，将第一个下拉列表设置为“`Single-page application (SPA)`”，并将值设置为“`http://localhost:3000`”。
 
     !["注册应用程序" 页的屏幕截图](./images/aad-register-an-app.png)
 
-1. 选择“**注册**”。 在 "**响应图形教程**" 页上，复制**应用程序（客户端） ID**的值并保存它，下一步将需要它。
+1. 选择 **“注册”**。 在 " **响应图形教程** " 页上，将应用程序的值复制 ** (客户端) ID** 并保存它，在下一步中将需要它。
 
     ![新应用注册的应用程序 ID 的屏幕截图](./images/aad-application-id.png)
-
-1. 选择“**管理**”下的“**身份验证**”。 找到 "**隐式授予**" 部分并启用**访问令牌**和**ID 令牌**。 选择“**保存**”。
-
-    ![隐式 grant 部分的屏幕截图](./images/aad-implicit-grant.png)
