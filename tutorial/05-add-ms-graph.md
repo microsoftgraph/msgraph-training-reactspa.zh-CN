@@ -24,7 +24,7 @@
     import React from 'react';
     import { NavLink as RouterNavLink } from 'react-router-dom';
     import { Table } from 'reactstrap';
-    import moment from 'moment-timezone';
+    import moment, { Moment } from 'moment-timezone';
     import { findOneIana } from "windows-iana";
     import { Event } from 'microsoft-graph';
     import { config } from './Config';
@@ -120,7 +120,7 @@
 
     :::code language="typescript" source="../demo/graph-tutorial/src/CalendarDayRow.tsx" id="CalendarDayRowSnippet":::
 
-1. 将以下 `import` 语句添加到 " **tsx**" 顶部。
+1. 将以下 `import` 语句添加到 " **tsx** " 顶部。
 
     ```typescript
     import CalendarDayRow from './CalendarDayRow';
