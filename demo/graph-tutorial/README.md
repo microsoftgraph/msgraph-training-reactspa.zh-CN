@@ -1,44 +1,46 @@
-此项目是通过[创建响应应用程序](https://github.com/facebook/create-react-app)引导的。
+# <a name="getting-started-with-create-react-app"></a>创建 React 应用入门
+
+此项目已启动创建 React [应用](https://github.com/facebook/create-react-app)。
 
 ## <a name="available-scripts"></a>可用脚本
 
-在项目目录中，您可以运行：
+在项目目录中，可以运行：
 
 ### `yarn start`
 
-在开发模式下运行应用程序。<br />
-打开[http://localhost:3000](http://localhost:3000)以在浏览器中进行查看。
+在开发模式下运行应用。\
+打开 [http://localhost:3000](http://localhost:3000) 以在浏览器中查看。
 
-如果进行编辑，则页面将重新加载。<br />
-您还将在控制台中看到任何不起毛的错误。
+如果进行编辑，页面将重新加载。\
+你还将在控制台中看到任何 lint 错误。
 
 ### `yarn test`
 
-在交互监视模式下启动测试运行程序。<br />
-有关详细信息，请参阅有关[运行测试](https://facebook.github.io/create-react-app/docs/running-tests)的部分。
+在交互式监视模式下启动测试运行程序。\
+有关详细信息，请参阅有关 [运行测试](https://facebook.github.io/create-react-app/docs/running-tests) 的部分。
 
 ### `yarn build`
 
-将生产应用程序生成到`build`文件夹中。<br />
-它在生产模式中正确绑定了响应，并优化了生成以实现最佳性能。
+将生产应用生成到 `build` 文件夹。\
+它在生产模式下正确捆绑 React，并优化内部版本以获得最佳性能。
 
-生成为缩小，文件名包含哈希值。<br />
-您的应用程序已准备好部署！
+生成缩小，文件名包括哈希。\
+你的应用已准备好部署！
 
-有关详细信息，请参阅关于[部署](https://facebook.github.io/create-react-app/docs/deployment)的部分。
+有关详细信息，请参阅 [有关部署](https://facebook.github.io/create-react-app/docs/deployment) 的部分。
 
 ### `yarn eject`
 
-**注意：这是单向操作。一旦您`eject`，就不能再回来！**
+**注意：这是单向操作。一 `eject` 旦完成，你无法返回！**
 
-如果您对生成工具和配置选项不满意，可以随时进行`eject` 。 此命令将从项目中移除单个生成依赖项。
+如果你对生成工具和配置选择不满意，你随时 `eject` 都可以。 此命令将删除项目中的单一生成依赖项。
 
-相反，它会将所有配置文件和可传递依赖项（webpack、Babel、ESLint 等）直接复制到您的项目中，以便您可以完全控制它们。 除之外`eject`的所有命令仍然有效，但它们将指向复制的脚本，以便您可以对其进行调整。 此时，你就是你自己的。
+相反，它会将 webpack、 (、ESLint 等) 配置文件和可传递依赖项复制到你的项目中，以便你可以完全控制它们。 除了这些命令之外，所有命令仍可以正常工作，但它们将指向复制 `eject` 的脚本，以便你可以调整它们。 此时，你已自己了。
 
-您无需使用`eject`。 Curated 功能集适用于小型和中间部署，您不应使用此功能。 但是，如果你已准备好对此工具进行自定义，则我们了解此工具不会有用。
+你不必再使用 `eject` 。 特展功能集适用于小型和中间部署，你不应觉得必须使用此功能。 但是，我们知道，如果你无法自定义它（当你准备好它时）此工具将没有用。
 
 ## <a name="learn-more"></a>了解详细信息
 
-您可以在[创建响应应用程序文档](https://facebook.github.io/create-react-app/docs/getting-started)中了解详细信息。
+可以在 Create React [App 文档中了解更多信息](https://facebook.github.io/create-react-app/docs/getting-started)。
 
-若要了解响应，请查看[响应文档](https://reactjs.org/)。
+若要了解 React，请查看 [React 文档](https://reactjs.org/)。
